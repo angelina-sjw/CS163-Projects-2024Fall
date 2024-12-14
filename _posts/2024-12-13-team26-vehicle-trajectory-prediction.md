@@ -17,6 +17,8 @@ Human drivers are remarkably adept at navigating complex traffic scenarios, draw
 
 Achieving accurate, reliable vehicle trajectory prediction is central to advancing autonomous transportation. Such predictive models stand to greatly enhance overall safety, reducing human-error-related incidents. They promise to facilitate smoother traffic flow, optimizing road usage and improving travel times for individual drivers and public transportation systems alike. In short, effective trajectory prediction strategies will play a pivotal role in ensuring that autonomy on our roads scales seamlessly from controlled test environments to real-world, dynamic scenarios.
 
+![Introduction Illustration]({{ '/assets/images/team26/intro.gif' | relative_url }})
+
 ### Problem Framework
 At its core, trajectory prediction involves forecasting the spatial coordinates of a vehicle over short-term (1--3 seconds) and longer-term (3--5 seconds) horizons. It draws from observed states of the ego vehicle and the myriad agents surrounding it: cars, buses, pedestrians, cyclists, and even animals. By inferring how each participant might move through a shared environment, an autonomous system can proactively adjust its own path to avert collisions and ensure fluid mobility. The challenge is inherently complex, since different agents exhibit diverse and non-linear behaviors that vary across a range of environmental conditions.
 
